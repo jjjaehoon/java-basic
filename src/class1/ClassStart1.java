@@ -1,7 +1,7 @@
 package class1;
 
 public class ClassStart1 {
-	//psvm 을 입력하면 아래 양식이 나옴
+	//psvm 을 입력하면 아래 main 메서드 양식이 나옴
 	public static void main(String[] args) {
 		String student1Name = "학생1";
 		int student1Age = 15;

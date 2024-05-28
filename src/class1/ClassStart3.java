@@ -2,7 +2,11 @@ package class1;
 
 public class ClassStart3 {
 	public static void main(String[] args) {
-		Student student1 = new Student();	//Student 클래스를 메모리에 등록하고 참조값을 student1 변수에 반환
+		/**
+		 * 설계도인 클래스를 사용해서 실제 메모리에 만들어진 실체를 객체 또는 인스턴스라고 한다.
+		 */
+		Student student1;
+		student1 = new Student();	//Student 클래스를 메모리에 등록하고 참조값을 student1 변수에 반환
 		student1.name = "학생1";
 		student1.age = 19;
 		student1.grade = 90;
@@ -17,8 +21,5 @@ public class ClassStart3 {
 
 		System.out.println(student1);	//객체 참조값 출력
 		System.out.println(student2);
-		/**
-		 * 설계도인 클래스를 사용해서 실제 메모리에 만들어진 실체를 객체 또는 인스턴스라고 한다.
-		 */
 	}
 }
