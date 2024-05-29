@@ -21,8 +21,5 @@ public class ClassStart4 {
 
 		System.out.println("이름:" + students[0].name + " 나이:" + students[0].age + " 점수:" + students[0].grade);
 		System.out.println("이름:" + students[1].name + " 나이:" + students[1].age + " 점수:" + students[1].grade);
-
-		System.out.println(student1);	//객체 참조값 출력
-		System.out.println(student2);
 	}
 }
