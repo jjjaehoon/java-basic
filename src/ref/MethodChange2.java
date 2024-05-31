@@ -14,7 +14,6 @@ public class MethodChange2 {
 		/**
 		 * dataX에 dataA의 주소값이 복사해 들어간다.
 		 * dataX의 value를 바꾸면 인스턴스에 접근해 20으로 바뀐다.
-		 * 그리고 메서드가 종료되면
 		 */
 		System.out.println("dataX = " + dataX);
 		dataX.value = 20;
