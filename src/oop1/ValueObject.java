@@ -1,7 +1,6 @@
 package oop1;
 
 public class ValueObject {
-
     /**
      * 데이터
      *
