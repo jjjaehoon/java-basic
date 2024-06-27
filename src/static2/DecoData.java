@@ -8,6 +8,7 @@ public class DecoData {
         /**
          * static은 클래스 로딩 시 바로 메모리에 올라가지만
          * 인스턴스는 인스턴스가 생성되어야지 메모리에 올라가기 때문에 static에서는 접근할 수가 없다
+         * main() 메서드도 static이기 때문에 같은 클래스의 static 메서드만 호출할 수 있다.
          */
         //instanceValue++;    //인스턴스 변수 접근, 컴파일 에러
         //instanceMethod();   //인스턴스 메서드 접근, 컴파일 에러
